@@ -1,0 +1,19 @@
+{
+  "imports": {
+    "@ai-sdk/openai": "npm:@ai-sdk/openai@^1.3.23",
+    "@mastra/core/agent": "npm:@mastra/core@0.0.0-workflow-deno-20250616132510/agent",
+    "@mastra/core/di": "npm:@mastra/core@0.0.0-workflow-deno-20250616132510/di",
+    "@mastra/core/mastra": "npm:@mastra/core@0.0.0-workflow-deno-20250616132510/mastra",
+    "@mastra/core/tools": "npm:@mastra/core@0.0.0-workflow-deno-20250616132510/tools",
+    "@mastra/core/workflows": "npm:@mastra/core@0.0.0-workflow-deno-20250616132510/workflows",
+    "@mastra/libsql": "npm:@mastra/libsql@0.0.0-workflow-deno-20250616132510",
+    "@mastra/loggers": "npm:@mastra/loggers@0.0.0-workflow-deno-20250616132510",
+    "@mastra/memory": "npm:@mastra/memory@0.0.0-workflow-deno-20250616132510",
+    "@mastra/pg": "npm:@mastra/pg@0.0.0-workflow-deno-20250616132510",
+    "@mastra/server/handlers/workflows": "npm:@mastra/server@0.0.0-workflow-deno-20250616132510/handlers/workflows",
+    "@mastra/server/handlers/agents": "npm:@mastra/server@0.0.0-workflow-deno-20250616132510/handlers/agents",
+    "@openrouter/ai-sdk-provider": "npm:@openrouter/ai-sdk-provider@^0.7.2",
+    "zod": "npm:zod@^3.25.76"
+  },
+  "nodeModulesDir": "auto"
+}
