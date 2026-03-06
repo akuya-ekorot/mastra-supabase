@@ -3,13 +3,14 @@ import { weatherTool } from "../tools/weather-tool.ts";
 import { createOpenRouter } from "@openrouter/ai-sdk-provider";
 import { PostgresStore } from "@mastra/pg";
 import { Memory } from "@mastra/memory";
+import process from "node:process";
 
 const openrouter = createOpenRouter({
-  apiKey: Deno.env.get("OPENROUTER_API_KEY"),
+  apiKey: process.env.OPENROUTER_API_KEY!,
 });
 
 export const storage = new PostgresStore({
-  connectionString: Deno.env.get("SUPABASE_DB_URL")!,
+  connectionString: process.env.SUPABASE_DB_URL!,
 });
 
 export const weatherAgent = new Agent({

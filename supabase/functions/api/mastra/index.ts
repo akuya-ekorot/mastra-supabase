@@ -11,4 +11,7 @@ export const mastra = new Mastra({
     level: "info",
   }),
   storage,
+  bundler: {
+    externals: ["_http_common"],
+  },
 });
